@@ -41,7 +41,7 @@ https://www.researchgate.net/publication/342452048_Simulation_of_a_programmable_
 
 ![](https://i.imgur.com/XcMsIQz.png)
 
-# List of components used
+### List of components used
 
 1. Opamps : https://www.mouser.be/ProductDetail/Texas-Instruments/OPA548T?qs=wgAEGBTxy7kyuDG8paPgyg%3D%3D
 2. Potentiometers : 
