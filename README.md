@@ -16,7 +16,7 @@ The gyrated capacitor and inductor can be connected in parallel with a potentiom
 
 ![](https://i.imgur.com/HE5GcLt.jpg)
 
-As can be seen from Figure 2, three potentiometers are placed inat the top of the PCB to ajdust the resistive impedance (R_var), and the inductive impedance (R5_indu and R2_indu). On the other hand, R4_capa is a potentiometer used to adjust the capacitive impedance.
+As can be seen from Figure 2, three potentiometers are placed at the top of the PCB to adjust the resistive impedance (R_var), and the inductive impedance (R5_indu and R2_indu). On the other hand, R4_capa is a potentiometer used to adjust the capacitive impedance.
 
 The size of the printed circuit track related to the generator and the opamp power supply is chosen larger to decrease as much as possible the voltage drop (and parasitic resistance).
 
