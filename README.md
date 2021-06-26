@@ -41,7 +41,14 @@ https://www.researchgate.net/publication/342452048_Simulation_of_a_programmable_
 
 ![](https://i.imgur.com/XcMsIQz.png)
 
+# List of components used
 
+1. Opamps : https://www.mouser.be/ProductDetail/Texas-Instruments/OPA548T?qs=wgAEGBTxy7kyuDG8paPgyg%3D%3D
+2. Potentiometers : 
+    - Adjustable Gyrated capacitor : https://www.mouser.be/ProductDetail/Bourns/PTV09A-4015U-B503?qs=pxDZlBjcsChjgaXxrSM7Lg==
+    - Adjustable Gyrated inductor : https://www.mouser.be/ProductDetail/Bourns/93R1A-R22-A12L?qs=%2Fha2pyFadujN8NjAXMmLjGFZb2gaUmOwtYIhbzFhkfaZK5uBbZHutQ%3D%3D
+    - Adjustable Resistor : https://www.mouser.be/ProductDetail/Bourns/96R1A-R16-A15L?qs=iuQ%252BhjgTeig0Okk2%252Boma3A==
+3. Switches : https://www.mouser.be/ProductDetail/CK/FP12SPC1B1TP00?qs=%2Fha2pyFadujdL%2FKUzrOTABrsLBJn1GvGCS2%252BuxUnWEOCBKVtXu80Ug%3D%3D
 ## Digital impedance
 
 The second step consists in designing a digital RLC impedance. By contrast to the analog impedance, the filtering process is done digitally using the microcontroller ATMEGA2560. A software feedback control approach is employed to adjust the current amplitude and the power factor. 
