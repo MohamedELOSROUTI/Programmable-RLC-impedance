@@ -20,7 +20,7 @@ As can be seen from Figure 2, three potentiometers are placed at the top of the 
 
 The size of the printed circuit track related to the generator and the opamp power supply is chosen larger to decrease as much as possible the voltage drop (and parasitic resistance).
 
-The red track and the green track correspond respectively to the top layer bottom layer of the PCB.
+The red track and the green track correspond respectively to the top layer and bottom layer of the PCB.
 
 The four power opamps are placed along the same row to make easy the connection of a radiator in case of high power dissipation.
 
