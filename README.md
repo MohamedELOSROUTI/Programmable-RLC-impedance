@@ -9,8 +9,8 @@ The first step is to design an analog impedance. A gyrator is used in order to s
 The gyrated capacitor and inductor can be connected in parallel with a potentiometer to simulate a programmable RLC impedance as shown here under : 
 
 **<center>Figure 1 : Kicad schematics</center>**
+![](https://i.imgur.com/DbZYgD8.png)
 
-![](https://i.imgur.com/GZ9SwLi.png)
 
 **<center>Figure 2 : Kicad PCB footprint </center>**
 
@@ -81,30 +81,37 @@ The LTO100 (F1R000FTE3) thick film power resistor can be a good candidate with i
 
 **<center>Figure 3 : Kicad Schematics </center>**
 Here's the Kicad schematics with the components used for building the digital programmable RLC impedance:
-![](https://i.imgur.com/8eBk4Ps.png)
+
+![](https://i.imgur.com/P2BE9cV.png)
+
 
 **<center>Figure 4 : Kicad PCB footprint</center>**
 
 Here is the PCB footprint of the digital RLC impedance. The red/green circuit track corresponds respectively to the top/bottom side of the PCB. A special care has been taken to deal with high current (5 A). Thicker circuit tracks have been chosen to supply the op amps. Since the 1 Ohm resistor can afford 5 Amps, it's also important to make sure that the copper circuit track doesn't add parasitic resistance (and thus dissipation of power).
 
 2x4 pins headers have been added to connect both the ADC and the DAC to the microcontroller. The serial communication protocole used is the I2C using SDA/SCL signals. 
-![](https://i.imgur.com/bh6r3Gx.png)
+
+![](https://i.imgur.com/EZXbq7X.png)
+
 
 **<center>Figure 5 : 3D Kicad PCB top layer </center>**
 Only footprints            |  With components
 :-------------------------:|:-------------------------:
-![](https://i.imgur.com/PAVjzMQ.png)  |  ![](https://i.imgur.com/c4v2IJV.png)
+![](https://i.imgur.com/z82rd2y.png)|![](https://i.imgur.com/fguExNY.png)
+
 
 
 **<center>Figure 6 : 3D Kicad PCB bottom layer </center>**
 Only footprints             |  With components
 :-------------------------:|:-------------------------:
-![](https://i.imgur.com/Xm8Jdsl.png) | ![](https://i.imgur.com/ZVcUrgf.png)
+![](https://i.imgur.com/7gWbhGG.png) |![](https://i.imgur.com/KQjG4WP.png)
+
 
 
 
 **<center>Figure 7 : 3D Kicad PCB oblique view </center>**
-![](https://i.imgur.com/dk8L9WB.png)
+
+![](https://i.imgur.com/WMEEMiW.png)
 
 # List of components used
 
